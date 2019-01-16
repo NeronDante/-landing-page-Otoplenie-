@@ -1,0 +1,347 @@
+/*LANDING*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	background: #fff;
+	position: relative;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-size: 235%;
+	font-weight: 800;
+}
+p {
+	font-size: 12pt;	
+}
+.in, .infin, .problem, .inwood, .oneclick, .goals, .rec {
+	background: #1d3557;
+}
+.white{
+	color: #fff;
+}
+.black {
+	color: #535353;
+}
+.blackp {
+	color: #7c7c7c;
+}
+.head {
+	display: inline-flex; /*элементы в строку*/
+	height: 115px;
+	text-align: left;
+}
+.head p,img {
+	padding: 20px;
+}
+
+.button {
+    background-color: #fff;
+    border: 2px solid #ff7b52;    
+    color: #ff7b52;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button2 {
+    background-color: #fff;
+    border: 2px solid #ff7b52;    
+    color: #ff7b52;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.in {
+	position: relative;
+	background: url(images/inbck.jpg);
+	min-height: 750px;
+}
+.inin {
+	position: absolute;
+	top: 23%;
+	left: 17%;
+	padding: 10px;
+	text-align: left;
+	line-height: 280%;
+}
+.button3 {
+    background-color: #ff4714;
+    border:none;    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.outline {
+	position: relative;
+	background: no-repeat url(images/outline.jpg);
+	background-position: right bottom;
+	min-height: 870px;
+
+}
+.inoutline {
+	position: absolute;
+	top: 11%;
+	left: 17%;
+	padding: 10px;
+	text-align: left;
+}
+.inoutline h1, h3, p, a {
+	padding-bottom: 5px;
+}
+.inoutline a {
+	margin-top: 20px;
+}
+.problem {	
+	position: relative;
+	background: #1d3557 no-repeat url(images/pbck.png);
+	background-position: left bottom;
+	min-height:680px;
+}
+.problems {
+	position: absolute;
+	top: 6%;
+	right: 10%;
+	padding: 10px;
+	text-align: left;
+}
+.problems h1 {
+	position: relative;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 3.3em;
+
+}
+.in_problem {
+	display: grid;
+	grid-template-columns: 400px 400px;
+	font-size: 0.7em;
+}
+.example {
+	background: no-repeat url(images/tube.png);
+	background-position: center center;
+	min-height: 245px;
+}
+.example h1 {
+	padding-top: 4%;
+	font-size: 3.3em;
+}
+.finhouse, .woodhouse {
+	padding: 0 15% 0 15%;
+	margin: 20px;
+	margin-bottom: 100px;	
+}
+.border {	
+	background: #1d3557;
+	padding:  30px 30px 30px 30px;
+}
+.infin, .inwood {
+	display: grid;
+	grid-template-columns: 560px 560px;
+	grid-template-rows: 355px 355px 355px 355px;
+	grid-gap: 30px;	
+	border: 1px solid #475c79;
+	height: 950px;
+}
+.fimg1 {
+	width: 100%;
+}
+.housein, .woodin {
+	display: grid;
+	grid-template-columns:  280px 280px;
+	grid-template-rows: 177px 177px;
+}
+.infin iframe, .inwood iframe {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.fhtext {
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: left;
+}
+.fhtext h2, p, a {
+	line-height: 180%; /* межстрочный интервал */
+}
+.fhtext a {
+	background-color: #ff4714;
+    border:none;    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.infin h3 {
+	text-align: left;
+	padding-left: 20px;
+	font-size: 1.5em;
+}
+
+.oneclick {
+	position: relative;
+	height: 750px;
+}
+	.outclick {
+		position: relative;
+		top: 1%;
+		left: 1%;
+	}
+		.click {
+			position: relative;
+			height: 600px;
+		}
+		.click img {
+			position: absolute;
+			left: 20%;
+		}
+		.click a {
+			position: absolute;
+			top: 26.2%;
+			left: 27.8%;
+		}
+	.clicktext {
+		position: absolute;
+		top: 10%;
+		right: 17%;
+		text-align: left;
+		font-size: 1.3em;
+	}
+		.clicktext h1,p,ul,a {
+			padding-bottom: 20px;
+		}
+	#cta1 {
+		background-color: #ff4714;
+    	border:none;    
+    	color: #fff;
+    	padding: 20px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+    	margin: 4px 2px;
+    	cursor: pointer;
+    	border-radius: 20px;
+	}
+	#cta2 {	
+    	border:none;    
+    	color: #ff4714;
+    	padding: 20px;
+    	text-align: center;    	
+    	display: inline-block;
+    	font-size: 16px;
+    	margin: 4px 2px;
+    	cursor: pointer;
+	}
+	.clicktext ul {
+		color: #ff4714;
+	}
+	.clicktext ul span {
+		color: #fff;
+	}
+
+.goals {
+	background: #1d3557 url(images/goals.png) no-repeat;
+	background-position: bottom;
+	position: relative;
+	height: 750px;
+	text-align: left;
+}
+	#gtext1 {
+		position: absolute;
+		left: 22%;
+		top: 29%;
+	}
+	#gtext2 {
+		position: absolute;
+		left: 33%;
+		top: 12%;
+	}
+	#gtext3 {
+		position: absolute;
+		right: 33%;
+		top: 12%;
+	}
+	#gtext4 {
+		position: absolute;
+		right: 22%;
+		top: 29%;
+	}
+
+.garant {
+	height: 770px;
+	color: #565656;
+	font-size: 1.4em;
+	padding-top: 40px;
+	
+}
+	.garanty{
+		position: relative;
+		width: 900px; 
+		margin: auto;
+	}
+		.garanty span {
+			margin: auto;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 30px;
+		}
+
+.rec {	
+	position: relative;
+	background: #1d3557 no-repeat url(images/recman.png);
+	background-position: left bottom;
+	height: 555px;
+	font-size: 1.4em;
+}
+	.inrec {
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		text-align: left;
+	}
+		.inrec input {
+			height: 45px;
+			width: 450px;
+		}
+
+.present {	
+	position: relative;
+	background: no-repeat url(images/present.png);
+	background-position: bottom;
+	height: 920px;
+	font-size: 1.4em;
+}
+	.present form {
+		position: relative;
+		top: 10%;
+		left: 40%;
+		
+	}
+	.inform {
+		position: relative;
+		text-align: left;
+	}
